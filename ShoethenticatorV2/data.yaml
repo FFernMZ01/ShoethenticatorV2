@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['J1_InsoleChar', 'J1_MateComp', 'J1_ShoeLogo', 'J1_ShoeShape', 'J1_StitchPattern']
+
+roboflow:
+  workspace: fernando-maldonado
+  project: jordan-sneakers-object-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fernando-maldonado/jordan-sneakers-object-detection/dataset/1
